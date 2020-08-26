@@ -1,0 +1,10 @@
+1) Verify product searching.
+2) Verify product's details and adding to cart.
+3) Verify functions on cart page (checkout, ...).
+4) Verify subscription function.
+5) Verify all navigations on menubar.
+6) Verify all navigations on footer.
+7) Verify pictures loading and links on homepage.
+8) Verify functions on deposit page.
+9) Verify filter on pages landing on navigation bar ("Hang Moi Ve", "Thuong Hieu", ...).
+10) Verify loading time and performance.
