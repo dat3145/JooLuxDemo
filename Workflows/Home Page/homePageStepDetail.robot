@@ -23,9 +23,9 @@ Search Item
 
 Verify Search Page For Item
     [Arguments]    ${item}
+    Wait Until Element Is Visible    //h1[contains(text(),"${item}")]    10s
     Sleep    2s
     Title Should Be    ${item} | Joolux
-    Wait Until Element Is Visible    //h1[contains(text(),"${item}")]    10s
     Sleep    2s
     #
     Log To Console    \nSearch Page has shown results for ${item} searching.
